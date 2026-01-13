@@ -1,1 +1,27 @@
-body{font-family: Arial, sans-serif;}
+body{font-family: Arial, sans-serif;
+     display: flex;
+    justify-content: center;
+margin-top: 50px;   }
+
+.container{
+    width: 400px
+}
+
+#task-input{
+   width: 70%;
+   padding: 8px; 
+}
+
+#task-input-button{
+    padding: 8px 12px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
