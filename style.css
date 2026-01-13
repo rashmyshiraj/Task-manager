@@ -25,3 +25,8 @@ li {
     padding: 8px;
     border-bottom: 1px solid #ccc;
 }
+
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}

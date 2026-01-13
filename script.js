@@ -10,10 +10,17 @@ function addTask(){
         return;
     }   
 
-
-
 const li =document.createElement("li");
 li.textContent=taskText
+
+li.addEventListener("click",function(){
+    li.classList.toggle("completed");
+});
+
+li.addEventListener("contextmenu", function(e){
+    e.preventDefault();
+    li.remove();
+})
 
 taskList.appendChild(li);
 
